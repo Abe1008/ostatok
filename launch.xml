@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\ae\workspace\ostatok\out\artifacts\ostatok_jar\ostatok.jar</jar>
+  <outfile>c:\TMP\ostatok.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\ae\workspace\ostatok\src\res\money.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJdk</jdkPreference>
+    <runtimeBits>32/64</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>0.0</txtFileVersion>
+    <fileDescription>Credit Sberbak card</fileDescription>
+    <copyright>(C) 2018 Aleksey Eremin</copyright>
+    <productVersion>0.0.0.0</productVersion>
+    <txtProductVersion>3.5</txtProductVersion>
+    <productName>Ostatok</productName>
+    <companyName></companyName>
+    <internalName>ostatok.jar</internalName>
+    <originalFilename>ostatok.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>RUSSIAN</language>
+  </versionInfo>
+</launch4jConfig>

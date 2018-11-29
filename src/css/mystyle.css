@@ -1,0 +1,8 @@
+/*
+ * Copyright (c) 2018. Aleksey Eremin
+ * 02.10.18 16:39
+ */
+
+#tbl_table .table-column {
+    -fx-alignment: CENTER-RIGHT;
+}

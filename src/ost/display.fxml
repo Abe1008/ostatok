@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<GridPane alignment="CENTER" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ost.Controller">
+   <children>
+      <TableView fx:id="tbl_table" prefHeight="290.0" prefWidth="600.0" GridPane.columnSpan="2">
+        <placeholder>
+          <Label text="Загружаются данные ..." />
+        </placeholder>
+        <columns>
+          <TableColumn fx:id="col_dat" prefWidth="95.0" style="-fx-alignment: center;" text="дата" />
+          <TableColumn fx:id="col_val" prefWidth="95.0" style="-fx-alignment: center-right;" text="сумма" />
+          <TableColumn fx:id="col_ost" prefWidth="95.0" style="-fx-alignment: center-right;" text="остаток" />
+          <TableColumn fx:id="col_dolg" prefWidth="95.0" style="-fx-alignment: center-right;" text="долг" />
+          <TableColumn fx:id="col_dopl" prefWidth="95.0" style="-fx-alignment: center;" text="оплачен" />
+          <TableColumn fx:id="col_dend" prefWidth="95.0" style="-fx-alignment: center;" text="срок" />
+        </columns>
+      </TableView>
+      <WebView fx:id="web_view" prefHeight="100.0" prefWidth="400.0" GridPane.rowIndex="1" />
+      <Button fx:id="btn_reloadData" alignment="CENTER" contentDisplay="CENTER" onAction="#onclick_btn_reloadData" text="загрузить снова" textAlignment="CENTER" textFill="#211278" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>
